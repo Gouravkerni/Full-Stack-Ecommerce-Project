@@ -1,9 +1,6 @@
 # Full Stack E-commerce
 > A full-stack MERN e-commerce application featuring secure authentication, cart management, and Razorpay integration.
 
-## 🔗 Demo
-<!-- Add live link or demo video here -->
-<!-- Add screenshots here -->
 
 ## 📋 Description
 This project is a comprehensive full-stack e-commerce platform built on the MERN stack. It provides users with a seamless shopping experience, complete with intuitive product browsing, secure cart management, and robust checkout capabilities powered by Razorpay. Designed for modern web standards, it serves as a robust application aiming for high performance and secure transactions.
@@ -37,7 +34,7 @@ This project is a comprehensive full-stack e-commerce platform built on the MERN
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/kumarlalit79/Full-Stack-E-commerce.git
+git clone https://github.com/Gouravkerni/Full-Stack-Ecommerce-Project
 ```
 
 2. Setup the Backend API
@@ -88,4 +85,4 @@ Setup a `.env` file in the `API/` directory with the following variables:
 | GET | `/api/payment/orders` | Retrieve all system orders (Admin) |
 
 ## 👤 Author
-Lalit Kumar — GitHub: kumarlalit79
+Gourav Kerni — GitHub: Gouravkerni
