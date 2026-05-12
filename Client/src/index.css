@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+
+
+@theme {
+  --color-bg-main: #F5F7F5;
+  --color-bg-soft: #E6ECE8;
+  --color-card: #FFFFFF;
+
+  --color-accent: #6F8F83;
+  --color-accent-hover: #5F7F74;
+
+  --color-text-main: #1F2D28;
+  --color-text-muted: #6B7F78;
+
+  --color-border-soft: #D9E1DC;
+}
+
+body {
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+}
+
+.filter-chip {
+  @apply border border-border-soft rounded-full px-4 py-1.5 text-text-muted bg-white hover:border-accent hover:text-text-main transition whitespace-nowrap;
+}
+
+
